@@ -13,10 +13,10 @@ osm.addTo(map);
                       MARKER               
 ===================================================*/
 
-var singleMarker = L.marker([28.25255,83.97669]);
-singleMarker.addTo(map);
-var popup = singleMarker.bindPopup('This is a popup')
-popup.addTo(map);
+// var singleMarker = L.marker([28.25255,83.97669]);
+// singleMarker.addTo(map);
+// var popup = singleMarker.bindPopup('This is a popup')
+// popup.addTo(map);
 
 /*===================================================
                      TILE LAYER               
@@ -213,7 +213,7 @@ legend.onAdd = function (map) {
 legend.addTo(map);
 
 
-//////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 const apiKey = 'eb380ce293c80acb396c9d71258f3d32';
 
 // add marker with popup

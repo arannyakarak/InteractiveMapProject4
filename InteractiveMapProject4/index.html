@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaflet Tutorial</title>
+    <title>Interactive Map</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
@@ -16,10 +16,10 @@
     <!-- <div id="map"></div> -->
     <div id="map" class="map"></div>
     <div class="controls leaflet-bar">
-        <input type="button" value="+Popups" onclick="addPopups()" title="Click to add popups @ random locations" />
+        <input type="button" value="+Popups" onclick="addPopups()" title="Click to add popups @ capital of usstates" />
         <input type="button" value="-Popups" onclick="removePopups()" title="Click to remove popups" />
         <input type="button" value="+Markers" onclick="addMarkers()"
-            title="Click to add markers with popup @ random locations. Hover & click on the marker to see the popup" />
+            title="Click to add markers with popup @ us states locations. Hover & click on the marker to see the popup" />
         <input type="button" value="-Markers" onclick="removeMarkers()" title="Click to remove markers" />
     </div>
 </body>
